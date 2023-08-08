@@ -1,0 +1,220 @@
+/*css started*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.maindiv {
+	width: 75%;
+	/*min-height:7000px;*/
+	background-color: gray;
+	margin: 0px auto;
+	position: relative;
+}
+
+.top {
+	width: 100%;
+	min-height: 1200px;
+	background-color: white;
+	background: url(../images/headerbg.jpg) no-repeat fixed;
+	background-size: cover;
+	position: relative;
+}
+
+.top-top {
+	width: 996px;
+	height: 800px;
+}
+
+.top-middle {
+	width: 100%;
+	height: 400px;
+	border-top: #182d55 14px solid;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 65.5%;
+	left: 0%;
+}
+
+.top-middle>ul {
+	display: flex;
+}
+
+.top-middle>ul>li {
+	height: 0px;
+	border-right: 2px solid white;
+	padding: 25px 50px;
+	margin-top: 30px;
+}
+
+.top-middle>ul>li:nth-child(5) {
+	border-right: 0px solid white;
+}
+
+.top-middle>ul>li>a {
+	color: white;
+}
+
+.logo {
+	position: absolute;
+	right: 480px;
+	top: 80px;
+}
+
+.contact {
+	position: absolute;
+	right: 40px;
+	top: 80px;
+}
+
+.top-bottom {
+	border: #182d55 25px solid;
+
+}
+
+.img {
+	height: 100px;
+	width: 100%;
+	background: url(../images/helicopters.jpg)no-repeat center;
+
+}
+
+.nav {
+	width: 100%;
+	height: 1000px;
+}
+
+.Aerial {
+	width: 100%;
+	height: 400px;
+	background: url(../images/frameimg1.jpg)fixed no-repeat;
+	background-size: cover;
+	/*position: absolute;*/
+	border-left: 1px solid white;
+
+}
+
+.rgba {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	height: 400px;
+	position: absolute;
+
+}
+
+.applicators {
+	height: 600px;
+	color: black;
+	border: 1px solid white;
+	top: 500PX;
+	width: 100%;
+	font-family: "times New Roman";
+	font-size: 24px;
+	color: #182D55;
+	text-align: center;
+	margin: auto;
+	line-height: 1;
+	background-color: white;
+
+}
+
+.applicators>p {
+	margin-top: 60px;
+}
+
+img {
+	padding-top: 50px;
+}
+
+.backtotop {
+	padding-top: 20px;
+}
+
+.backtotop>a {
+	text-decoration: underline;
+
+}
+
+.buton {
+	width: 200px;
+	height: 35px;
+	border: 8px solid white;
+	color: #fff;
+	top: 122px;
+	left: 420px;
+	position: absolute;
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+.border1 {
+	width: 238px;
+	height: 0px;
+	border: 2px solid white;
+	position: absolute;
+	top: 150px;
+	left: 180px;
+}
+
+.border2 {
+	width: 238px;
+	height: 0px;
+	border: 2px solid white;
+	position: absolute;
+	top: 150px;
+	right: 270px;
+}
+
+.Helicopter {
+	width: 100%;
+	height: 400px;
+	background: url(../images/frameimg2.jpg)fixed no-repeat;
+	background-size: cover;
+	/*position: absolute;*/
+	border-left: 1px solid white;
+
+}
+
+.Flight {
+	width: 100%;
+	height: 400px;
+	background: url(../images/frameimg3.jpg)fixed no-repeat;
+	background-size: cover;
+	/*position: absolute;*/
+	border-left: 1px solid white;
+
+}
+
+.Charters {
+	width: 100%;
+	height: 400px;
+	background: url(../images/frameimg4.jpg)fixed no-repeat;
+	background-size: cover;
+	/*position: absolute;*/
+	border-left: 1px solid white;
+
+}
+
+.Contact {
+	width: 100%;
+	height: 400px;
+	background: url(../images/frameimg5.jpg)fixed no-repeat;
+	background-size: cover;
+	/*position: absolute;*/
+	border-left: 1px solid white;
+
+}
+
+hr {
+	width: 50%;
+	margin-left: 250px;
+}
